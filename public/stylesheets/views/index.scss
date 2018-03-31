@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+.container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .home-left{
+    border-radius: 2em;
+
+  }
+  .home-right{
+    border-radius: 2em;
+  }
+}
